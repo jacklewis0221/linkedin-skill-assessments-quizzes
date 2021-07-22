@@ -131,7 +131,7 @@ v1 and v2 point to the same vector.
 
 #### Q11. Suppose you need to keep a data struct with permission to access some resource based on the days of the week, but you can't use a bool variable for each day. You need to use one bit per day of the week. Which of the following is a correct implementation of a structure with bit fields for this application?
 
-- [x] A
+- [ ] A
 
 ```cpp
 typedef struct {
@@ -411,7 +411,7 @@ x=+a;
 #### Q29. Which statement is true?
 
 - [ ] Only classes can have member variables and methods.
-- [x] C++ supports multiple inheritance.
+- [ ] C++ supports multiple inheritance.
 - [ ] C++ supports only single inheritance.
 - [ ] Only structs can inherit.
 
