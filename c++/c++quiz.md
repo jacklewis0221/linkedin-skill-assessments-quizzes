@@ -10,7 +10,7 @@ printf("%d", !b);
 
 - [ ] False
 - [ ] 0
-- [x] 1
+- [ ] 1
 - [ ] This code has an error.
 
 #### Q2. Which of the following is a reason why using this line is considered a bad practice? (_Alternative_: Why is using this line considered a bad practice?)
@@ -20,7 +20,7 @@ Using namespace std;
 ```
 
 - [ ] The compiled code is always bigger because of all of the imported symbols.
-- [x] If the code uses a function defined in two different libraries with the same prototype but possibly with different implementations, there will be a compilation error due to ambiguity.
+- [ ] If the code uses a function defined in two different libraries with the same prototype but possibly with different implementations, there will be a compilation error due to ambiguity.
 - [ ] It automatically includes all header files in the standard library (cstdint, cstdlib, cstdio, iostream, etc).
 - [ ] It causes the compiler to enforce the exclusive inclusion of header files belonging to the standard library, generating compilation error when a different header file is included.
 
@@ -36,7 +36,7 @@ typedef struct{
 }child_t;
 ```
 
-- [x] 7 bits.
+- [ ] 7 bits.
 - [ ] 25 bytes.
 - [ ] 1 bit.
 - [ ] 1 byte.
@@ -55,12 +55,12 @@ v2.push_back(5);
 - [ ] Error
 - [ ] v1:{1,2,3,4}; v2:{5};
 - [ ] v1:{1,2,3,4,5}; v2:{1,2,3,4,5};
-- [x] v1:{1,2,3,4}; v2:{1,2,3,5};
+- [ ] v1:{1,2,3,4}; v2:{1,2,3,5};
 
 #### Q5. Which of the following is a true statement about the difference between pointers and iterators?
 
 - [ ] While pointers are variable that hold memory address, iterators are generic functions used to traverse containers. These function allows the programmer to implement read and write code as the container is traversed.
-- [x] Incrementing an iterator always means access the next element in the container(if any), no matter the container. Incrementing the pointer means pointing to the next element in memory, not always the next element.
+- [ ] Incrementing an iterator always means access the next element in the container(if any), no matter the container. Incrementing the pointer means pointing to the next element in memory, not always the next element.
 - [ ] Pointers are variables that hold memory address where as iterator are unsigned integers that refers to offsets in arrays.
 - [ ] All iterator are implemented with pointers so all iterators are pointers but not all pointers are iterators.
 
@@ -73,7 +73,7 @@ int median(const my_array& a);
 ```
 
 - [ ] The argument is passed as a reference, so the function receives a copy that can be modified without affecting the original value.
-- [x] The argument is passed as a reference, so if the passed my_array object is large, the program will require less time and memory.
+- [ ] The argument is passed as a reference, so if the passed my_array object is large, the program will require less time and memory.
 - [ ] Actually objects can't be passed as regular variables because they require a constructor call. Therefore a const reference is the only way to pass class instances to functions.
 - [ ] There are no benefits because a reference and an object are treated as the same thing.
 
@@ -89,7 +89,7 @@ union {
 } u1;
 ```
 
-- [x] 4 bytes
+- [ ] 4 bytes
 - [ ] 7 bytes
 - [ ] 8 bytes
 - [ ] 2 bytes
@@ -99,7 +99,7 @@ union {
 #### Q8. Which of the following operators is overloadable?
 
 - [ ] `?:`
-- [x] `new`
+- [ ] `new`
 - [ ] `::`
 - [ ] `.`
 
@@ -114,7 +114,7 @@ v2->push_back(5);
 ```
 
 - [ ] `*v1:{1,2,3,4}; *v2:{5};`
-- [x] `*v1:{1,2,3,4,5}; *v2:{1,2,3,4,5};`
+- [ ] `*v1:{1,2,3,4,5}; *v2:{1,2,3,4,5};`
 - [ ] Error
 - [ ] `*v1:{1,2,3,4}; *v2:{1,2,3,5};`
 
@@ -123,7 +123,7 @@ v1 and v2 point to the same vector.
 #### Q10. Which of the following is not a difference between a class and a struct?
 
 - [ ] Because structs are part of the C programming language, there are some complexity between C and C++ structs. This is not the case with classes.
-- [x] Classes may have member functions; structs are private.
+- [ ] Classes may have member functions; structs are private.
 - [ ] The default access specifier for members of struct is public, whereas for member of class, it is private.
 - [ ] Template type parameters can be declared with classes, but not with the struct keyword.
 
@@ -179,7 +179,7 @@ _NOTE_: Correct syntax is that each variable size is 1 bit. `bit` is not a type 
 #### Q12. What is an lvalue?
 
 - [ ] It's a constant expression, meaning an expression composed of constants and operations.
-- [x] It's an expression that represents an object with an address.
+- [ ] It's an expression that represents an object with an address.
 - [ ] It's an expression suitable for the left-hand side operand in a binary operation.
 - [ ] It's a location value, meaning a memory address suitable for assigning to a pointer or reference.
 
@@ -189,14 +189,14 @@ _NOTE_: Correct syntax is that each variable size is 1 bit. `bit` is not a type 
 auto x = 4000.22;
 ```
 
-- [x] It specifies that the type of x will be deduced from the initializer - in this case, double.
+- [ ] It specifies that the type of x will be deduced from the initializer - in this case, double.
 - [ ] It specifies that the type of x is automatic meaning that if can be assigned different types of data throughout the program.
 - [ ] It specifies that x is a variable with automatic storage duration.
 - [ ] It specifies that more memory will be allocated for x in case it needs more space, avoiding loss of data due to overflow.
 
 #### Q14. What is a class template?
 
-- [x] It's a class written with the generic programming, specifying behavior in terms of type parameter rather than specific type.
+- [ ] It's a class written with the generic programming, specifying behavior in terms of type parameter rather than specific type.
 - [ ] It's a blank superclass intended for inheritance and polymorphism.
 - [ ] It's class that only consists of member variable, with no constructor, destructor nor member functions.
 - [ ] It's skelton source code for a class where the programmer has to fill in specific parts to define the data types and algorithms used.
@@ -213,7 +213,7 @@ else
 - [ ] `y=a?b:x;`
 - [ ] `y=if(x?a:b);`
 - [ ] `y=(x&a)?a:(x&b)?b:0;`
-- [x] `y=x?a:b;`
+- [ ] `y=x?a:b;`
 
 #### Q16. What is the output of this code?
 
@@ -232,14 +232,14 @@ int main(){
        `x = 11 and y = 19`
 - [ ] `x = 11 and y = 19`  
        `x = 10 and y = 20`
-- [x] `x = 10 and y = 19`  
+- [ ] `x = 10 and y = 19`  
        `x = 11 and y = 20`
 - [ ] `x = 11 and y = 20`  
        `x = 10 and y = 19`
 
 #### Q17. What is the meaning of the two parts specified between parentheses in a range-based for loop, separated by a colon?
 
-- [x] The first is a variable declaration that will hold an element in a sequence. The second is the sequence to traverse.
+- [ ] The first is a variable declaration that will hold an element in a sequence. The second is the sequence to traverse.
 - [ ] The first is an iterator, and the second is the increment value to be added to the iterator.
 - [ ] The first is the iterating variable. The second is an `std::pair` that specifies the range (start and end) in which the variable will iterate.
 - [ ] The first is a container object. The second is an `std::pair` that specifies the range (start and end) in which the elements will be accessed within the loop.
@@ -257,7 +257,7 @@ else
 
 - [ ] There is no output because there is an exception when comparing an int8_t with a uint8_t.
 - [ ] greater
-- [x] less
+- [ ] less
 - [ ] There is no output because there is a compiler error.
 
 #### Q19. What results from executing this code snippet?
@@ -273,13 +273,13 @@ else {
 ```
 
 - [ ] Part A executes because x==5 (true) and y==2 (true), thus the AND operation evaluates as true.
-- [x] Part B executes because (x & y) results in 0, or false.
+- [ ] Part B executes because (x & y) results in 0, or false.
 - [ ] Part A executes because (x & y) results in a nonzero value, or true.
 - [ ] Part B executes because the statement (x & y) is invalid, thus false.
 
 #### Q20. What is a valid definition for the `get_length` function, which returns the length of a null-terminated string?
 
-- [x] A
+- [ ] A
 
 ```cpp
 int get_length(char *str) {
@@ -328,13 +328,13 @@ int get_length(char *str) {
 
 - [ ] `std::list`
 - [ ] `std::vector`
-- [x] `std::priority_queue`
+- [ ] `std::priority_queue`
 - [ ] `std::map`
 
 #### Q22. What is the meaning of the three sections specified between parentheses in a for loop separated by semicolons?
 
 - [ ] The first is the iterating variable name, the second is the number of times to iterate, and the third is the desired increment or decrement (specified with a signed integer).
-- [x] The first is the initialization block, the second is the condition to iterate, and the third is the increment block.
+- [ ] The first is the initialization block, the second is the condition to iterate, and the third is the increment block.
 - [ ] The first is the iterating variable, the second is the container in which it should operate, and the third is an exit condition to abort at any time.
 - [ ] The first is the iterating variable name, the second is the starting value for the iterating variable, and the third is the stop value (the last value plus one).
 
@@ -348,7 +348,7 @@ printf("%d", ++i);
 printf("%d", --i);
 ```
 
-- [x] 0,1,1,0
+- [ ] 0,1,1,0
 - [ ] 0,1,0,1
 - [ ] 0,0,1,0
 - [ ] 1,0,1,0
@@ -362,7 +362,7 @@ void *ptr;
 - [ ] It is a pointer initialized at NULL.
 - [ ] It is a pointer to a void function.
 - [ ] That declaration causes a compiler error, as pointers must specify a type.
-- [x] It is a pointer to a value with no specific type, so it may be cast to point to any type.
+- [ ] It is a pointer to a value with no specific type, so it may be cast to point to any type.
 
 [Reference](https://en.cppreference.com/w/cpp/language/pointer)
 
@@ -375,7 +375,7 @@ std::printf("c is %d and d is %c",c,d);
 
 - [ ] c is d and d is c
 - [ ] c is A and d is 3
-- [x] c is 3 and d is A
+- [ ] c is 3 and d is A
 - [ ] c is c and d is d
 
 #### Q26. What is the output of this code?
@@ -386,7 +386,7 @@ printf("1/2 = %f",(float)(1/2));
 
 - [ ] 1/2 = 0.499999
 - [ ] 1/2 = 0
-- [x] 1/2 = 0.000000
+- [ ] 1/2 = 0.000000
 - [ ] 1/2 = 0.5
 
 #### Q27. What is the difference between a public and a private class member?
@@ -405,7 +405,7 @@ x=+a;
 
 - [ ] 3
 - [ ] 7
-- [x] -3
+- [ ] -3
 - [ ] 13
 
 #### Q29. Which statement is true?
@@ -425,12 +425,12 @@ void *ptr=&g;
 - [ ] `float f=*(float)ptr;`
 - [ ] `float f=(float *)ptr;`
 - [ ] `float f=(float)*ptr;`
-- [x] `float f=*(float *)ptr;`
+- [ ] `float f=*(float *)ptr;`
 
 #### Q31. What is the `.*` operator and what does it do?
 
 - [ ] It is the same as the class member access operator, or arrow operator `(->)`, which allows you to access a member of an object through a pointer to the object.
-- [x] It is the pointer to member operator, and it allows you to access a member of an object through a pointer to that specific class member.
+- [ ] It is the pointer to member operator, and it allows you to access a member of an object through a pointer to that specific class member.
 - [ ] It is the member access with address of operator, which returns the address of a class or struct member.
 - [ ] It is a combination of the member access operator `(.)` and the dereference operator `(*)`, so it allows you to access the object that a member pointer points to.
 
@@ -496,7 +496,7 @@ class Dog :: public Animal {
 };
 ```
 
-- [x] B
+- [ ] B
 
 ```cpp
 class Dog : public Animal {
@@ -536,7 +536,7 @@ int main(){
 }
 ```
 
-- [x] c = -1, which is less than 10
+- [ ] c = -1, which is less than 10
 - [ ] c = 255, which is greater than 10
 - [ ] c = -1, which is greater than 10
 - [ ] c = 255, which is less than 10
@@ -545,7 +545,7 @@ int main(){
 
 - [ ] by simply calling the C code
 - [ ] there is no way for C++ to call a C function
-- [x] by using extern "C"
+- [ ] by using extern "C"
 - [ ] by importing the source C code
 
 #### Q36. Which choice is _not_ a valid type definition of a structure that contains x and y coordinates as integers, and that can be used exactly as shown for the variable named `center`?
@@ -556,7 +556,7 @@ center.x = 5;
 center.y = 3;
 ```
 
-- [x] A
+- [ ] A
 
 ```cpp
 typedef struct coord {
@@ -602,7 +602,7 @@ for (i=1;i<10;i++){
 }
 ```
 
-- [x] A
+- [ ] A
 
 ```cpp
 i=1;
@@ -646,7 +646,7 @@ loop:
 - [ ] It causes the toolchain to compile all the contents of library.h so that its executable code is available when needed by the final application.
 - [ ] It cherry picks library.h for the declarations and definitions of all data and functions used in the remainder of the source file main.cpp, finally replacing the `#include` directive by those declarations and definitions.
 - [ ] It informs the linker that some functions or data used in the source file main.cpp are contained in library.h, so that they can be called in run time. This is also known as dynamic linking.
-- [x] It causes the replacement of the `#include` directive by the entire contents of the source file library.h. This is similar to a Copy-Paste operation of library.h into main.cpp.
+- [ ] It causes the replacement of the `#include` directive by the entire contents of the source file library.h. This is similar to a Copy-Paste operation of library.h into main.cpp.
 
 #### Q39. Consider this function declaration of `is_even`, which takes in an integer and returns true if the argument is an even number and false otherwise. Which declarations are correct for overloaded versions of that function to support floating point numbers and string representations of numbers?
 
@@ -654,7 +654,7 @@ loop:
 bool is_even(int);
 ```
 
-- [x] A
+- [ ] A
 
 ```cpp
 bool is_even(float f);
@@ -695,7 +695,7 @@ char *is_even(char *str);
 #endif /* MY_LIBRARY_H */
 ```
 
-- [x] B
+- [ ] B
 
 ```cpp
 #ifndef MY_LIBRARY_H
@@ -737,7 +737,7 @@ std::vector<std::vector<int>> thematrix;
 - [ ] There's nothing wrong with it.
 - [ ] An `std::vector` cannot contain more `std::vector` containers as its elements.
 - [ ] The correct syntax should be: `std::vector[std::vector[int]] thematrix;`
-- [x] `>>` is parsed as the shift-right operator, and thus results in a compile error.
+- [ ] `>>` is parsed as the shift-right operator, and thus results in a compile error.
 
 #### Q42. What is the statement below equivalent to?
 
@@ -747,7 +747,7 @@ sprite->x
 
 - [ ] `sprite.x`
 - [ ] `sprite.*x`
-- [x] `(*sprite).x`
+- [ ] `(*sprite).x`
 - [ ] `*sprite.x`
 
 #### Q43. Consider a class named `complexNumber`. Which code will result in an equivalent object?
@@ -776,7 +776,7 @@ complexNumber(float real, float im) {
 }
 ```
 
-- [x] C
+- [ ] C
 
 ```cpp
 complexNumber(float real, float im) {
@@ -809,7 +809,7 @@ else{
 - [ ] Part A executes because the expression `(~x || y)` always results in true if `y==false`.
 - [ ] Part B executes because the statement `(~x || y)` is invalid, thus false.
 - [ ] Part A executes because `~x` is not zero, meaning true.
-- [x] Part B executes because `~x` is false and `y` is false, thus the `OR` operation evaluates as false.
+- [ ] Part B executes because `~x` is false and `y` is false, thus the `OR` operation evaluates as false.
 
 #### Q45. What would be the output of this code?
 
@@ -819,7 +819,7 @@ std::cout << ( nums[0] << nums[1] << nums[2] );
 ```
 
 - [ ] The output is the addresses of `nums[0]`, `nums[1]`, and `nums[2]`, in that order, with no spaces.
-- [x] `256`
+- [ ] `256`
 - [ ] `0`
 - [ ] `243`
 
@@ -834,14 +834,14 @@ for(auto f:values)
 - [ ] `0.54 2.71828 3.14159 5.499999 10.0`
 - [ ] `1 3 4 6 11`
 - [ ] `0 2 3 5 10`
-- [x] `1 3 3 5 10`
+- [ ] `1 3 3 5 10`
 
 #### Q47. Which of the following STL classes is the best fit for implementing a phonebook? Suppose each entry contains a name and a phone number, with no duplicates, and you want to have lookup by name.
 
 - [ ] `std::priority_queue`
 - [ ] `std::list`
 - [ ] `std::vector`
-- [x] `std::map`
+- [ ] `std::map`
 
 [Reference](https://en.cppreference.com/w/cpp/container/map)
 
@@ -861,7 +861,7 @@ int main(){
 
 - [ ] It renames text1.txt to text2.txt.
 - [ ] It makes a directory called text2.txt and moves text1.txt there.
-- [x] It copies the contents of text1.txt into text2.txt - i.e., it makes a copy of text1.txt, named text2.txt.
+- [ ] It copies the contents of text1.txt into text2.txt - i.e., it makes a copy of text1.txt, named text2.txt.
 - [ ] It appends the contents of text1.txt into text2.txt - i.e., replaces the contents of text2.txt by the concatenation of text2.txt and text1.txt.
 
 [Reference](https://en.cppreference.com/w/cpp/header/fstream)
@@ -874,7 +874,7 @@ class my_class {
 }
 ```
 
-- [x] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
+- [ ] The variable cannot be modified by any part of the code in the same application or thread. However, other threads may modify it.
 - [ ] The variable exists even when no objects of the class have been defined so it can be modified at any point in the source code.
 - [ ] The variable is allocated only once, regardless of how many objects are instantiated because it is bound to the class itself, not its instances.
 - [ ] All objects that try to access their count member variable actually refer to the only class-bound static count variable.
@@ -883,7 +883,7 @@ class my_class {
 
 #### Q50. What is the assumed type of a constant represented in the source code as `0.44`?
 
-- [x] double
+- [ ] double
 - [ ] long float
 - [ ] long double
 - [ ] float
@@ -897,7 +897,7 @@ std::cout<<"a="<<(int)a;
 std::cout<<", b="<<(int)b;
 ```
 
-- [x] a=-56, b=100
+- [ ] a=-56, b=100
 - [ ] a=-55, b=100
 - [ ] a=200, b=-156
 - [ ] a=200, b=100
@@ -908,7 +908,7 @@ std::cout<<", b="<<(int)b;
 my_class *my_object = new my_class();
 ```
 
-- [x] `delete(my_object);`
+- [ ] `delete(my_object);`
 - [ ] `free(my_object);`
 - [ ] The garbage collector will destroy the object eventually.
 - [ ] Exiting the scope will destroy the object.
@@ -928,7 +928,7 @@ int main(){
 
 - [ ] `grades.count();`
 - [ ] `my_array->count();`
-- [x] `grades->count();`
+- [ ] `grades->count();`
 - [ ] `my_array.count();`
 
 [Reference](https://en.cppreference.com/w/c/language/operator_member_access)
@@ -941,7 +941,7 @@ int& nums[3]={i2,i0,i1};
 std::cout<<nums[0]<<nums[1]<<nums[2];
 ```
 
-- [x] There is no output. The code causes a compiler error because `nums` is an array of references, which is illegal.
+- [ ] There is no output. The code causes a compiler error because `nums` is an array of references, which is illegal.
 - [ ] 846
 - [ ] The output is the addresses of `i2`, `i0`, and `i1`, in that order, with no spaces.
 - [ ] 468
@@ -959,7 +959,7 @@ typedef struct{
 ```
 
 - [ ] It is a type defined as a structure with three unsigned fields initialized as age=4, gender=1, and size=2.
-- [x] It is a type defined as a structure with bit fields, with 4 bits for age, 1 bit for gender, and 2 bits for size.
+- [ ] It is a type defined as a structure with bit fields, with 4 bits for age, 1 bit for gender, and 2 bits for size.
 - [ ] This code causes a compiler error because the colon character is not allowed in struct definitions.
 - [ ] It is a type defined as a structure with three arrays. The size and length of these arrays are age:int[4], gender:char[1], and size:int[2], all signed.
 
@@ -974,7 +974,7 @@ A->B->C->D
 - [ ] `A.B.C.D`
 - [ ] `*A.*B.*C.*D`
 - [ ] `&A.&B.&C.&D`
-- [x] `*(*((*A).B).C).D`
+- [ ] `*(*((*A).B).C).D`
 
 #### Q57. What does this function do?
 
@@ -985,7 +985,7 @@ std::memset(buff,20,50);
 
 - [ ] It declares a memory buffer named buff that starts at address 20 and ends at address 70.
 - [ ] It sets all bits in the array named buffer from its element at index 20 to its element at index 50.
-- [x] It writes the value 20 in every memory address from buff to buff+49.
+- [ ] It writes the value 20 in every memory address from buff to buff+49.
 - [ ] It declares a memory buffer named buff that starts at address 20 and ends at address 50.
 
 [Reference](https://en.cppreference.com/w/cpp/string/byte/memset)
@@ -995,7 +995,7 @@ std::memset(buff,20,50);
 - [ ] `CustomData& operator++();`
 - [ ] `void operator++(CustomData);`
 - [ ] `CustomData operator++(CustomData);`
-- [x] `CustomData operator++(int);`
+- [ ] `CustomData operator++(int);`
 
 [Reference](https://en.cppreference.com/w/cpp/language/operators)
 
@@ -1005,7 +1005,7 @@ std::memset(buff,20,50);
 std::array<uint32_t, 50> my_array;
 ```
 
-- [x] A
+- [ ] A
 
 ```cpp
 std::sort(my_array.begin(), my_array.end(),
@@ -1045,7 +1045,7 @@ std::sort(my_array.begin(), my_array.end(), &lambda);
 
 #### Q60. Which choice is the most reasonable implementation of the function std::mutex::lock() by using std::mutex::try_lock()?
 
-- [x] A
+- [ ] A
 
 ```cpp
 void std::mutex::lock(){
@@ -1080,7 +1080,7 @@ void std::mutex::lock(){
 
 #### Q61. What is the purpose of a destructor?
 
-- [x] It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself.
+- [ ] It allows the programmer to write the necessary code to free the resources acquired by the object prior to deleting the object itself.
 - [ ] It deletes an object. One example of a destructor is the `delete()` function.
 - [ ] It terminates a program. This may be achieved as a regular function call or as an exception.
 - [ ] There are no destructors in C++.
@@ -1088,7 +1088,7 @@ void std::mutex::lock(){
 #### Q62. Which STL class is the best fit for implementing a phonebook? Suppose each entry contains a name and a phone number, with no duplicates, and you want to have lookup by name.
 
 - [] std::priority_queue
-- [x] std::map
+- [] std::map
 - [] std::vector
 - [] std::list
 
@@ -1100,7 +1100,7 @@ std::mutex::try_lock()
 ```
 
 - [ ] `lock()` has a higher privilege over `try_lock()`. This means that you have a better chance of acquiring a mutex `with lock()`.
-- [x] Both attempt to acquire a lock, but `lock()` blocks if the mutex is not available, whereas `try_lock()` returns whether the mutex is available or not.
+- [ ] Both attempt to acquire a lock, but `lock()` blocks if the mutex is not available, whereas `try_lock()` returns whether the mutex is available or not.
 - [ ] `lock()` enforces preemption, whereas `try_lock()` suggests preemption.
 - [ ] If the mutex is not available, `try_lock()` returns with a corresponding code, whereas `lock()` snatches the mutex from the thread that currently has it.
 
@@ -1114,7 +1114,7 @@ int median(const my_array& a)
 
 - [ ] Actually, objects cannot be passed as regular variables, because they require a constructor call. Therefore, a `const` reference is the only way to pass class instances to functions.
 - [ ] There are no benefits because a reference and an object are treated as the same thing.
-- [x] The `const` qualifier Forbids the code to modify the argument, so the programmer can rest assured that the source object will remain unchanged.
+- [ ] The `const` qualifier Forbids the code to modify the argument, so the programmer can rest assured that the source object will remain unchanged.
 - [ ] The argument is passed as a reference, so the Function receives a copy that can be modified without affecting the original variable.
 
 Note: This one is similar to Q6, but focuses on the `const` keyword.
